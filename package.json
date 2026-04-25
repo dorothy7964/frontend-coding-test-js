@@ -1,0 +1,16 @@
+{
+  "name": "frontend-coding-test",
+  "version": "1.0.0",
+  "description": "JavaScript 코딩테스트 학습 저장소입니다. <br/><br/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --quiet --exec \"node ./javascript-basic/today/today.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
