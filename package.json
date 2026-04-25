@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --quiet --exec \"node ./javascript-basic/today/today.js\""
+    "start": "nodemon --quiet --exec \"node ./javascript-basic/today/today.js\"",
+    "save": "node save.js"
   },
   "keywords": [],
   "author": "",
