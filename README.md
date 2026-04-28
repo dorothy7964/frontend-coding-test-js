@@ -47,8 +47,8 @@ frontend-coding-test-js/
 ├── ☑ javascript-basic/
 │   ├── ☑ today/
 │   │   └── ☑ today.js
-│   ├── ☐ array/
-│   ├── ☐ string/
+│   ├── ☑ array/
+│   ├── ☑ string/
 │   ├── ☐ map-set/
 │   └── ☐ sort/
 │
