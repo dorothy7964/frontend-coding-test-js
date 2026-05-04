@@ -49,7 +49,7 @@ frontend-coding-test-js/
 │   │   └── ☑ today.js
 │   ├── ☑ array/
 │   ├── ☑ string/
-│   ├── ☐ map-set/
+│   ├── ☑ map-set/
 │   └── ☐ sort/
 │
 ├── ☐ patterns/
