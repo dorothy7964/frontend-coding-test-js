@@ -105,6 +105,7 @@ reverse-string(2).js
 
 - solve: 문제 풀이 완료
 - retry: 오답 다시 풀이 / 재도전
+- alt : 다른 풀이 방식 구현
 - study: 알고리즘 개념 학습
 - refactor: 기존 풀이 개선
 - docs: README / 노트 정리
