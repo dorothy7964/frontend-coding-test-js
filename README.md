@@ -51,12 +51,11 @@ frontend-coding-test-js/
 │   ├── ☑ string/
 │   ├── ☑ map-set/
 │   └── ☐ sort/
-│
-├── ☐ patterns/
-│   ├── ☐ dfs-bfs/
-│   ├── ☐ stack-queue/
-│   ├── ☐ hash/
-│   └── ☐ greedy/
+│   └── patterns/
+│       └── ☑ stack-queue/
+│       └── ☐ hash/
+│       └── ☐ dfs-bfs/
+│       └── ☐ greedy/│
 │
 └── ☑ notes/
     ├── ☐ time-complexity.md
