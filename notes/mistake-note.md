@@ -10,19 +10,24 @@
 
 #### 실수
 
-- 부분 수열 길이 선택할 때 windewSize의 의미를 이해하지 못함
-- 한 칸씩 이동할때 같은 windowSize 창문 이동을 이해하지 못함
+- 처음에 3중 반복문(O(n³))으로만 생각함
+- 슬라이딩 윈도우로 이전 구간 합을 재활용할 수 있다는 점을 놓침
+- start + windowSize - 1 의 의미를 이해하지 못함
+- windowSize가 이동할 때마다 바뀌는 값이라고 착각함
 
 #### 다시 기억할 점
 
-- start - 1 → 빠지는 값
-- start + windowSize - 1 → 새로 들어오는 값
+- 현재 구간 합에서 맨 앞 값만 빼고 새로 들어오는 값만 더하면 된다.
+- 슬라이딩 윈도우는 구간 합을 매번 처음부터 계산하지 않는다.
 
 ```js
-// 빠지는 값
+// windowSize는 현재 윈도우 길이이며,
+// 안쪽 반복문에서는 고정된 상태로 한 칸씩 이동한다.
+
+// 윈도우에서 빠지는 값: startIndex - 1
 currentSum -= circle[startIndex - 1];
 
-// 새로 들어오는 값 추가
+// 윈도우에 새로 들어오는 값: startIndex + windowSize - 1
 currentSum += circle[startIndex + windowSize - 1];
 ```
 
