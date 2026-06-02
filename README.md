@@ -54,8 +54,14 @@ frontend-coding-test-js/
 │   └── patterns/
 │       └── ☑ stack-queue/
 │       └── ☐ hash/
+│       └── ☑ sliding-window/
+│       └── ☐ two-pointers/
+│       └── ☐ prefix-sum/
 │       └── ☐ dfs-bfs/
-│       └── ☐ greedy/│
+│       └── ☐ binary-search/
+│       └── ☐ greedy/
+│       └── ☐ dp/
+│       └── ☐ graph/
 │
 └── ☑ notes/
     ├── ☐ time-complexity.md
