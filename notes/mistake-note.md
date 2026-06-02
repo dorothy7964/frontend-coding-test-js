@@ -2,20 +2,28 @@
 
 코딩테스트 풀이 중 실수한 내용과 다시 기억할 점을 정리합니다.
 
-<br/>
+<br/><br/>
 
-## [예시] 2026-04-25
+## Sliding Window
 
-### 프로그래머스 - mock-test
+### 연속 부분 수열 합의 개수
 
 #### 실수
 
-- `sort()` 숫자 정렬인데 compare 함수 없이 사용함
-- `return answer` 빼먹음
-- 배열 길이보다 큰 인덱스 접근함
+- 부분 수열 길이 선택할 때 windewSize의 의미를 이해하지 못함
+- 한 칸씩 이동할때 같은 windowSize 창문 이동을 이해하지 못함
 
 #### 다시 기억할 점
 
+- start - 1 → 빠지는 값
+- start + windowSize - 1 → 새로 들어오는 값
+
 ```js
-arr.sort((a, b) => a - b);
+// 빠지는 값
+currentSum -= circle[startIndex - 1];
+
+// 새로 들어오는 값 추가
+currentSum += circle[startIndex + windowSize - 1];
 ```
+
+<br/><br/>
